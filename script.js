@@ -52,8 +52,8 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      지구과학 책: '100원',
-      물리학 책: '500원',
+      지구과학책: '100원',
+      물리학책: '500원',
       없음:'없음'
     };
 
