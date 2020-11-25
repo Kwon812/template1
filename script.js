@@ -53,7 +53,7 @@ async function predict() {
 
     const data = {
       pen: 'pen',
-      None: 'background',
+      Nothing: 'Nothing',
     };
 
     if (probability >= 75) {
