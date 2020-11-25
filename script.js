@@ -52,10 +52,10 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      EarthScience: '100원',
-      Physics: '500원',
-      Chemistry:'1000원',
-      Nothing:'0원',
+      EarthScience: '지구과학',
+      Physics: '물리학',
+      Chemistry:'화학',
+      Nothing:'없음',
     };
 
     if (probability >= 75) {
