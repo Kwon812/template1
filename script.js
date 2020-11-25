@@ -52,7 +52,7 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      pen: 'pen',
+      Pen: 'pen',
       Nothing: 'Nothing',
     };
 
@@ -68,3 +68,4 @@ async function predict() {
     }
   }
 }
+
