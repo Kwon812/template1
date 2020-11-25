@@ -52,8 +52,11 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      pen: 'pen',
-      nothing: 'Nothing',
+      백원: '100원',
+      오백원: '500원',
+      천원:'1000원',
+      오천원:'5000원',
+      만원:'10000원',
     };
 
     if (probability >= 75) {
