@@ -58,7 +58,7 @@ async function predict() {
       Nothing:'없음',
     };
 
-    if (probability >= 75) {
+    if (probability >= 65) {
       if (name.innerHTML !== className) {
         name.innerHTML = className;
         description.innerHTML = data[className];
