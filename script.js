@@ -52,10 +52,10 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      EarthScience: '지구과학(천재교육)',
-      Physics: '물리학(천재교육)',
-      Chemistry:'화학(천재교육)',
-      Nothing:'없음',
+      Battery: '보조 배터리(기념품)',
+      TabS5E: '갤럭시 탭 S5E',
+      None:'없음',
+      ME:'나',
     };
 
     if (probability >= 65) {
