@@ -53,9 +53,10 @@ body {
   font-weight: 600;
 }
 .percent {
+  font-family: "Nerko One", cursive;
   text-align: center;
   font-size: 18px;
-  font-weight: bold;
+  font-style: italic;
 }
 
 .icon .invisible {
