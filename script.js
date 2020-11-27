@@ -55,7 +55,7 @@ async function predict() {
       Battery: '보조 배터리(기념품)',
       TabS5E: '갤럭시 탭 S5E',
       None:'없음',
-      ME:'나',
+      Me:'나',
     };
 
     if (probability >= 65) {
