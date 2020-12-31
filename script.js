@@ -52,10 +52,10 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      Battery: '보조 배터리(기념품)',
-      TabS5E: '갤럭시 탭 S5E',
-      None:'없음',
-      Me:'나',
+      Irregular Galaxy: '불규칙 은하',
+      Normal Spiral Galaxy: '정상나선은하',
+      Nbarred Spiral Galaxy:'막대나선은하',
+      
     };
 
     if (probability >= 65) {
