@@ -2,7 +2,7 @@ const icon = document.querySelector('.icon');
 const on = document.querySelector('.fas.fa-video');
 const off = document.querySelector('.fas.fa-video-slash');
 const camera = document.querySelector('.camera');
-const name = document.querySelector('.name');
+const named = document.querySelector('.named');
 const percent = document.querySelector('.percent');
 const description = document.querySelector('.description');
 
@@ -59,8 +59,8 @@ async function predict() {
     };
 
     if (probability >= 65) {
-      if (Name.innerHTML !== className) {
-        Name.innerHTML = className;
+      if (named.innerHTML !== className) {
+        named.innerHTML = className;
         description.innerHTML = data[className];
       }
 
