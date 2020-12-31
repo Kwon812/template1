@@ -54,7 +54,7 @@ async function predict() {
     const data = {
       IrregularGalaxy: '불규칙 은하',
       NormalSpiralGalaxy: '정상나선은하',
-      NbarredSpiralGalaxy:'막대나선은하',
+      BarredSpiralGalaxy:'막대나선은하',
       
     };
 
