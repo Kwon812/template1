@@ -2,7 +2,7 @@ const icon = document.querySelector('.icon');
 const on = document.querySelector('.fas.fa-video');
 const off = document.querySelector('.fas.fa-video-slash');
 const camera = document.querySelector('.camera');
-const named = document.querySelector('.named');
+const named = document.querySelector('.name');
 const percent = document.querySelector('.percent');
 const description = document.querySelector('.description');
 
