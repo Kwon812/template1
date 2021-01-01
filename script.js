@@ -53,7 +53,7 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      BarredSpiralGalaxy: 'Barred', NormalSpiralGalaxy: "일반", IrregularGalaxy:'Irregular',
+      BarredSpiralGalaxy: '막대', NormalSpiralGalaxy: '정상', IrregularGalaxy:'불규칙',
       
     };
 
