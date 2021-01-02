@@ -53,10 +53,9 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      BarredSpiralGalaxy: '막대나선은하',  
-      NormalspiralGalaxy: '정상나선은하', 
-      IrregularGalaxy:'불규칙은하',
-      
+      BSG: '막대나선은하(Barred Spiral Galaxy)',  
+      NSG: '정상나선은하(Normal Spiral Galaxy)', 
+      IG:'불규칙은하(Irregular Galaxy)',
     };
 
     if (probability >= 65) {
