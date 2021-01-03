@@ -31,7 +31,7 @@ async function init() {
   maxPredictions = model.getTotalClasses();
 
   const flip = ture;
-  webcam = new tmImage.Webcam(500, 500,flip);
+  webcam = new tmImage.Webcam(480, 480,flip);
   await webcam.setup();
 
   camera.appendChild(webcam.canvas);
